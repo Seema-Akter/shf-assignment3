@@ -1,0 +1,200 @@
+
+/*================ base css start here ===================*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+
+/*================ base css end here ===================*/
+
+
+/*================ common css start here ===================*/
+.width{
+	width: 82%;
+	margin: auto !important;
+}
+
+.d-flex{
+	display: flex;
+}
+.color-white{
+	color: #fff;
+
+}
+
+/*================ common css end here ===================*/
+
+/*================ topbar start here ===================*/
+
+.icon-img{
+width: 20px;
+padding-right: 7px;
+}
+
+.topbar{
+	background-color: rgba(0, 0, 0, .45);
+	height: 60px;
+	line-height: 60px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.topbar ul{
+	display: flex;
+}
+
+.icon-img{
+width: 20px;
+}
+
+.topbar ul{
+	display: flex;
+}
+.topbar-left-ul{
+	width: 50%;
+}
+.top-right{
+	width: 50%;
+}
+.top-right .topbar-right-ul{
+	float: right;
+}
+.top-right .topbar-right-ul li a, .topbar-left-ul li a {
+	font-size: 14px;
+	color: #fff;
+	line-height: 22px;
+	font-weight: 400;
+}
+
+.top-right .topbar-right-ul li, .topbar-left-ul li {
+	padding-left: 30px;
+}
+.top-right .topbar-right-ul li:nth-child(1), .topbar-left-ul li:nth-child(1) {
+	padding-left: 0;
+}
+
+/*================ topbar end here ===================*/
+/*================ main header start here ===================*/
+/*header{
+	position: relative;
+}*/
+.main-header{
+	background-color: rgba(0, 0, 0,.45);
+	height: 80px;
+	line-height: 80px;
+	position: fixed;
+	top: 60px;
+	width: 100%;
+}
+
+.logo{
+	width: 32%;
+}
+.menu{
+	width: 68%;
+}
+
+.menu-ul li{
+	padding-left: 37px;
+}
+.menu-ul li:nth-child(1){
+	padding-left: 0;
+}
+.menu-ul li a{
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: .5px;
+}
+.menu-ul li a:hover{
+	padding-bottom: 26px;
+	border-bottom: 3px solid #468AE7;
+}
+.menu-ul img{
+	width: 17px;
+}
+.search{
+	margin-top: 3px;
+}
+.lo{
+	margin-top: 20px;
+	padding-top: 10px;
+}
+.bg-img{
+	background-image: url("../img/header/slider1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	height: 700px;
+	width: 1450px;
+	margin-top: -50px;
+}
+
+.li-home a{
+	padding-bottom: 26px;
+	border-bottom: 3px solid #468AE7;
+
+}
+
+.bg-content{
+	position: absolute;
+	top: 280px;
+	left: 8%;
+}
+.bg-content h2{
+	font-size: 81px;
+	font-weight: 600;
+	color: #fff;
+	margin: 0;
+}
+
+.bg-content h3{
+	font-size: 45px;
+	font-weight: 600;
+	color: rgb(186, 217, 255);
+	margin: 0;
+	margin-top: -11px;
+}
+.bg-content p{
+	font-size: 18px;
+	font-weight: 400;
+	color: rgb(218, 229, 255);
+	margin: 0;
+}
+.bg-content button{
+	background-color: #4692E7;
+	border: none;
+	padding: 17px 21px;
+	font-size: 13px;
+	line-height: 12px;
+	font-weight: 900;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 24px;
+}
+/*================ main header  end here ===================*/
+
+.sec1{
+	background-color: #467DE7;
+}
+.box1{
+	width: 25%;
+	display: flex;
+}
+.box1 img{
+	width: 49px;
+	height: 49px;
+}
