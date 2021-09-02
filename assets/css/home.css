@@ -17,7 +17,8 @@ ul{
 li{
 	list-style: none;
 }
-
+section{
+}
 /*================ base css end here ===================*/
 
 
@@ -387,8 +388,6 @@ margin-bottom: -3px;
 
 }
 .sec5-img .sec5-h2{
-	/*background-image: url("../img/section5/sec5-ovl.png");
-	background-size: cover;*/
 	width: 100%;
 	height: 320px;
 	background-color: rgba(0, 0, 0, .3);
@@ -433,6 +432,80 @@ margin-bottom: -3px;
 }
 /*================section5 end here================*/
 
+
+
+/*================section6 srart here================*/
+.sec6-right img{
+	display: block;
+	margin-top: 20px;
+}
+
+.sec6-left{
+	width: 60%;
+}
+.sec6-right{
+	width: 40%;
+	padding-left: 30px;
+}
+.firul{
+	width: 50%;
+	
+}
+.secul{
+	width: 50%;
+	
+}
+.uld ul li a{
+	font-size: 15px;
+	font-weight: 500;
+	color: #468AE7;
+}
+.uld ul li{
+	padding-top: 10px;
+}
+.sec6-title h2, .sec6-right h2{
+	font-size: 24px;
+	font-weight: 400;
+	color: #383838;
+	margin-bottom: 12px;
+}
+.sec6{
+	padding: 50px 0;
+}
+.sec6-right p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #8c8c8c;
+}
+.sec6-right input{
+	font-size: 15px;
+	font-weight: 400;
+	width: 220px;
+	color: #757575;
+	padding: 18px;
+	border-radius: 30px;
+	background-color: #F3F3F3;
+	border: none;
+}
+.sec6-right button{
+	font-size: 12px;
+	font-weight: 600;
+	width: 120px;
+	color: #fff;
+	padding: 18px;
+	border-radius: 30px;
+	background-color: #468AE7;
+	border: none;
+	margin-left: 20px;
+}
+.sec6-right input:focus{
+	width: 220px;
+	color: #757575;
+	padding: 18px;
+	border-radius: 30px;
+	border: none;
+}
+/*================section6 end here================*/
 
 /*=====================================================
 							footer start here 
